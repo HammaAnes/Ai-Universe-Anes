@@ -1,0 +1,53 @@
+Q: Qu'est-ce que BrainyWriter ?
+A: BrainyWriter est une plateforme de génération de texte intelligente basée sur l’intelligence artificielle. Elle permet de créer des contenus optimisés, personnalisés et cohérents pour les professionnels de l’écriture, du marketing et de la communication.
+
+Q: Comment fonctionne le système de templates ?
+A: Les utilisateurs peuvent sélectionner des templates prédéfinis via le bouton 'Template' situé en haut à droite de l’interface. Chaque template configure automatiquement des paramètres comme la langue, la tonalité, le style d’orthographe, le format de sortie, etc.
+
+Q: Quels paramètres peut-on configurer dans un template ?
+A: Parmi les paramètres configurables : la langue de sortie, la tonalité du texte (formelle, informelle, etc.), le type d’orthographe, le contexte rédactionnel et le format du contenu.
+
+Q: Peut-on choisir le moteur GPT utilisé ?
+A: Oui, BrainyWriter permet de sélectionner le moteur GPT souhaité (ex : GPT-4, GPT-3.5), influençant la qualité, la créativité et la rapidité des textes générés.
+
+Q: La plateforme permet-elle le travail collaboratif ?
+A: Oui, BrainyWriter propose une section de discussion entre collègues et un espace de partage de projets, facilitant la collaboration au sein d'une même entreprise.
+
+Q: Comment se déroule la génération de contenu ?
+A: Une fois le template choisi et les paramètres définis, l'utilisateur saisit son prompt. Le moteur IA génère un texte conforme aux critères sélectionnés.
+
+Q: Quel est le modèle économique de BrainyWriter ?
+A: BrainyWriter fonctionne avec un système de tokens. Chaque génération consomme un nombre défini de tokens, et des packs de tokens sont disponibles à l’achat selon les besoins.
+
+Q: Peut-on suivre sa consommation de tokens ?
+A: Oui, la plateforme offre un suivi en temps réel de la consommation de tokens, garantissant une transparence totale.
+
+Q: Quels sont les cas d’usage typiques des templates ?
+A: Les templates couvrent des cas comme la rédaction d’articles de blog, de fiches produits, d’e-mails marketing, de résumés, de textes publicitaires, de lettres de motivation, etc.
+
+Q: Peut-on personnaliser entièrement un template ?
+A: Oui, chaque template peut être ajusté en fonction de vos préférences : langue, ton, contexte, niveau de détail, et plus encore.
+
+Q: Est-ce que BrainyWriter prend en charge plusieurs langues ?
+A: Oui, la plateforme prend en charge de nombreuses langues, avec détection automatique de la langue du prompt et adaptation du style selon la langue choisie.
+
+Q: Quel niveau de qualité peut-on attendre des textes générés ?
+A: Les textes générés sont de haute qualité, adaptés à des contextes professionnels, grâce à l’utilisation de moteurs IA avancés comme GPT-4.
+
+Q: Peut-on utiliser BrainyWriter pour générer du contenu SEO ?
+A: Oui, certains templates sont spécialement conçus pour produire du contenu optimisé pour le référencement naturel (SEO).
+
+Q: Est-ce que les projets partagés peuvent être édités à plusieurs ?
+A: Oui, plusieurs collaborateurs peuvent éditer, commenter et suivre l’évolution des projets en temps réel.
+
+Q: Quels types d’abonnements sont proposés ?
+A: Des formules d’abonnement mensuel ou annuel sont disponibles, incluant différents volumes de tokens selon le profil de l’utilisateur (freelancer, PME, grande entreprise).
+
+Q: Puis-je tester la plateforme avant d’acheter ?
+A: Oui, une version gratuite ou un nombre limité de tokens de test est généralement offert pour découvrir les fonctionnalités.
+
+Q: Est-ce que mes données sont sécurisées ?
+A: Oui, BrainyWriter garantit la confidentialité et la sécurité de vos données grâce à des protocoles de sécurité avancés et une politique stricte de protection des informations.
+
+Q: Comment obtenir de l’assistance technique ?
+A: Une équipe de support est disponible via chat, e-mail ou un centre d’aide intégré pour répondre à toutes vos questions.
