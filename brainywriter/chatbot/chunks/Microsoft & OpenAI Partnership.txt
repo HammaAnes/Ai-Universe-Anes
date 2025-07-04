@@ -1,0 +1,1 @@
+Microsoft has invested over $10 billion in OpenAI. The partnership includes hosting OpenAI’s models on Azure, and integrating them into products like GitHub Copilot, Microsoft Word, Excel, and more. Azure OpenAI Service offers API access to GPT models. This partnership positions Microsoft as a leader in commercial AI applications.
