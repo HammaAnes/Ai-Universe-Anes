@@ -10,7 +10,7 @@ embeddings = CohereEmbeddings(
     model="embed-english-v3.0"
 )
 
-db = FAISS.load_local("microsoft_vectorstore", embeddings, allow_dangerous_deserialization=True)
+db = FAISS.load_local("brainywriter_vectorstore", embeddings, allow_dangerous_deserialization=True)
 retriever = db.as_retriever()
 
 # --- Initialize LLM and Prompt ---
@@ -21,16 +21,14 @@ llm = ChatCohere(
 )
 
 template = """
-You are a helpful, friendly AI assistant that answers questions specifically about Microsoft Corporation.
+Tu es un assistant IA expert de la plateforme BrainyWriter.
 
-Guidelines:
-- Be polite, welcoming, and conversational.
-- ONLY answer questions if they are directly about Microsoft, its products, technologies, leadership, or operations.
-- If a follow-up question depends on prior context (chat history), use it to infer meaning.
-- If a question is unrelated to Microsoft (e.g. other companies, general tech, or casual conversation), respond kindly but say you're specialized in Microsoft topics.
-- Do NOT guess or invent information.
+Tu dois :
+- Répondre uniquement aux questions en lien avec BrainyWriter (fonctionnalités, fonctionnement, templates, tokens, collaboration, etc.).
+- Être poli, clair et utile.
+- Refuser poliment toute question hors sujet.
 
-Use the previous conversation and context to help answer the user's question.
+Utilise le contexte ci-dessous pour répondre.
 
 ---
 Chat History:
@@ -40,8 +38,9 @@ Context:
 {context}
 ---
 Question: {question}
-Answer:
+Réponse :
 """
+
 
 
 prompt = PromptTemplate(
@@ -64,14 +63,14 @@ qa_chain = ConversationalRetrievalChain.from_llm(
 )
 
 # --- Streamlit UI ---
-st.set_page_config(page_title="Microsoft Chatbot", page_icon="🧠")
+st.set_page_config(page_title="BrainyWriter Chatbot", page_icon="🧠")
 
 # Initialize chat history in session
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
 
-st.title("💬 Microsoft RAG Chatbot with Memory")
-st.markdown("Ask me anything about Microsoft Corporation.")
+st.title("💬 BrainyWriter RAG Chatbot with Memory")
+st.markdown("Ask me anything about BrainyWriter.")
 
 user_input = st.text_input("🔍 Your question")
 

@@ -1,8 +1,0 @@
-Microsoft competes with various tech giants depending on the domain:
-- Google (cloud, productivity tools, AI)
-- Apple (hardware, OS)
-- Amazon (cloud with AWS)
-- Meta (collaboration, metaverse)
-- Salesforce (enterprise cloud apps)
-
-Despite competition, Microsoft maintains a strong market presence across all sectors.
